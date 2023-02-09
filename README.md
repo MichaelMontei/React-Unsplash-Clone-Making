@@ -95,3 +95,7 @@ function ImageShow({ image }) {
 
 export default ImageShow;
 ```
+
+### Conclusion:
+
+I've learned alot with this project and it was fun to make!
