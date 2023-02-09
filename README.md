@@ -6,7 +6,8 @@
 ### STEP 1: Preparation for this APP
 
 I wanted to make an Unsplash Clone with React so I started by going into the Unsplash documentation to check how we could make a Get request and get an array back with pictures. I noticed that we would need in our request a Header with AUthorization and a Params with a query:term. 
-You can test the Application here https://genuine-gnome-a674fa.netlify.app/
+You can test the Application here! Just search for a term and it will show an array of 10 pictures regarding that subject:
+ https://genuine-gnome-a674fa.netlify.app/
 
 ### Step 2: Making of the components and the API Call: 
 
