@@ -15,4 +15,9 @@ ImageList: Here I would need to show the renderedImages coming back from the API
 ImageShow: Here I would just show the List of Images we would get back
 
 For the API call I made a seperate file and did not work with UseEffect in React. I could have done it this way but wanted to work with a seperate file.
+<<<<<<< HEAD
 I also used Axios to make the API Get Request from Unsplash. 
+=======
+I also used Axios to make the API Get Request from Unsplash. 
+
+>>>>>>> bfa3dd10ca24d793c9c5782c518a8925fdbe6d7b
