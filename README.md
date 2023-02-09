@@ -1,5 +1,8 @@
 # React-Unsplash-Clone-Making
 
+![Unsplash](/images/unsplash.png)
+
+
 ### STEP 1: Preparation for this APP
 
 I wanted to make an Unsplash Clone with React so I started by going into the Unsplash documentation to check how we could make a Get request and get an array back with pictures. I noticed that we would need in our request a Header with AUthorization and a Params with a query:term. 
