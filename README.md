@@ -10,3 +10,7 @@ I Divided my app into components where I would need a SearchBar, ImageList and a
 SearchBar: Here I would need to use state and a event.target.value to check for handleChange everytime the user would Type something my state would be updated.
 ImageList: Here I would need to show the renderedImages coming back from the API in the array response
 ImageShow: Here I would just show the List of Images we would get back
+
+For the API call I made a seperate file and did not work with UseEffect in React. I could have done it this way but wanted to work with a seperate file.
+I also used Axios to make the API Get Request from Unsplash. 
+
