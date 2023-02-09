@@ -68,3 +68,30 @@ function SearchBar({ onSubmit }) {
 
 export default SearchBar;
 ```
+
+ImageList
+```js
+import './ImageList.css';
+import ImageShow from "./ImageShow";
+
+function ImageList( { images }) {
+    const renderedImages = images.map((image) => {
+        return <ImageShow key={image.id} image={image} />;
+    });
+
+    return <div className="image-list">{renderedImages}</div>;
+}
+
+export default ImageList;
+```
+
+ImageShow
+```js
+function ImageShow({ image }) {
+    return <div>
+        <img src={image.urls.small} alt={image.alt_description}/>
+        </div>;
+}
+
+export default ImageShow;
+```
